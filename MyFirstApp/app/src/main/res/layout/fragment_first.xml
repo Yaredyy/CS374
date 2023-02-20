@@ -21,10 +21,9 @@
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintTop_toBottomOf="@+id/My_First_Name"
+        app:layout_constraintVertical_bias="0.327" />
 
     <Button
         android:id="@+id/random_button"
@@ -72,6 +71,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_first" />
 
+    <TextView
+        android:id="@+id/My_First_Name"
+        android:layout_width="320dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="60dp"
+        android:background="#FFFFFF"
+        android:fontFamily="serif"
+        android:text="@string/My_Name"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
