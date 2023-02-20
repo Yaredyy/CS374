@@ -9,4 +9,12 @@
 
     <string name="edittext_share">\'Twas brillig and the slithy toves</string>
     <string name="button_share">Share This Text</string>
+    <string name="SMS_Text">SMS</string>
+    <string name="Phone_Text">PHONE</string>
+    <string name="Web_Text">WEB</string>
+    <string name="Map_Text">MAP</string>
+    <string name="Share_Text">SHARE</string>
+    <string name="New_Activity_Text">NEW ACTIVITY</string>
+
+    <string name="Chooser_Text">Share</string>
 </resources>
