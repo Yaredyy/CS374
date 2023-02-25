@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     startActivity(mapIntent);
                 } catch (ActivityNotFoundException e) {
-                    Toast.makeText(MainActivity.this, R.string.Web_Text + " gave activity not found error", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, R.string.Map_Text + " gave activity not found error", Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -76,7 +76,19 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     startActivity(shareChooser);
                 } catch (ActivityNotFoundException e) {
-                    Toast.makeText(MainActivity.this, R.string.Web_Text + " gave activity not found error", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, R.string.Share_Text + " gave activity not found error", Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+        findViewById(R.id.New_Activity_Button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newActIntent = MainActivity.this.getPackageManager().getLaunchIntentForPackage("com.example.implicitintents");
+                try {
+                    startActivity(newActIntent);
+                } catch (ActivityNotFoundException e) {
+                    Toast.makeText(MainActivity.this, R.string.New_Activity_Text + " gave activity not found error", Toast.LENGTH_LONG).show();
                 }
             }
         });
