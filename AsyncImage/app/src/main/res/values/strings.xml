@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Async Image</string>
+    <string name="image_description">Image</string>
+    <string name="textview_text">TextView</string>
+</resources>
