@@ -31,11 +31,7 @@ public class NetworkUtils {
         String bookJSONString = null;
 
         try {
-            Uri builtURI = Uri.parse(BOOK_BASE_URL).buildUpon()
-                    .appendQueryParameter(QUERY_PARAM, queryString)
-                    .appendQueryParameter(MAX_RESULTS, "10")
-                    .appendQueryParameter(PRINT_TYPE, "books")
-                    .build();
+            Uri builtURI = Uri.parse(BOOK_BASE_URL).buildUpon().appendQueryParameter(QUERY_PARAM, queryString).appendQueryParameter(MAX_RESULTS, "10").appendQueryParameter(PRINT_TYPE, "books").build();
 
             URL requestURL = new URL(builtURI.toString());
 
