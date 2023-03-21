@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BF4343"
+    android:background="#BF5C43"
     tools:context=".MainActivity">
 
     <Button
@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         android:layout_marginTop="80dp"
-        android:background="#C84444"
-        android:backgroundTint="#913131"
+        android:background="#51C844"
+        android:backgroundTint="#00913131"
         android:text="@string/SMS_Text"
         app:iconTint="#00FFFFFF"
         app:layout_constraintEnd_toStartOf="@+id/Web_Button"
