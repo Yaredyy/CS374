@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyFirebaseActivity</string>
+    <string name="last_name">enter last name</string>
+    <string name="first_name">enter first name</string>
+    <string name="Add">Add</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="True">True</string>
+    <string name="False">False</string>
+</resources>
